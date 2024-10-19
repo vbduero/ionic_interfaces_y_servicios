@@ -1,0 +1,55 @@
+ion-header {
+    background-color: #4caf50; /* Color de fondo verde para el header */
+    color: white; /* Color del texto en el header */
+    --background: rgba(0, 0, 0, 0.1); /* Hacerlo ligeramente translúcido */
+    ion-toolbar {
+      --background: transparent; /* Hacer el toolbar sin borde */
+      ion-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  ion-content {
+    --background: #f3f4f6; /* Fondo gris claro para el contenido */
+    padding: 1rem; /* Espaciado general */
+  }
+  
+  ion-card {
+    --background: white; /* Fondo blanco para las tarjetas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 12px; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Espacio entre tarjetas */
+    transition: transform 0.2s ease-in-out; /* Efecto al pasar el ratón */
+    &:hover {
+      transform: scale(1.02); /* Pequeño aumento al pasar el ratón */
+    }
+  }
+  
+  ion-card-subtitle {
+    color: #777; /* Color gris para el subtítulo */
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ion-card-title {
+    color: #333; /* Color más oscuro para el título */
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  ion-img {
+    border-radius: 8px; /* Imágenes con bordes redondeados */
+    margin: 0.5rem 0;
+    max-height: 200px; /* Limitar la altura de la imagen */
+    object-fit: cover; /* Ajustar la imagen sin distorsionarla */
+  }
+  
+  ion-card-content {
+    font-size: 1rem;
+    color: #555; /* Texto del contenido en gris */
+  }
+  
